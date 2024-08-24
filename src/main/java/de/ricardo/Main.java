@@ -35,4 +35,12 @@ public class Main {
     public static int[] createArray() {
         return new int[]{1, 2, 3, 4, 5};
     }
+
+    public static int add(int a, int b) {
+        return a + b;
+    }
+
+    public static boolean isEven(int number) {
+        return number % 2 == 0;
+    }
 }
